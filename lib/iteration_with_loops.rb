@@ -6,4 +6,5 @@ def find_min_in_nested_arrays(src)
  src.each do |inner_array|
    newArray << inner_array.min
  end
+ newArray
 end
